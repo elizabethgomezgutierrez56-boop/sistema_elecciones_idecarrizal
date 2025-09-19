@@ -87,20 +87,20 @@ select {
     border: 1px solid #ccc;
 }
 
-.from-grid {
+.form-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     text-align: left;
 }
 
-.from-grid {
+.form-group {
     display: flex;
     flex-direction: column;
 }
 
 @media (max-width: 90%) {
-    .from-grid {
+    .form-grid {
         grid-template-columns: 1fr;
     }
 }
